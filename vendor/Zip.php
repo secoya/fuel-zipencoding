@@ -393,7 +393,7 @@ class CI_Zip  {
 	 */
 	public function archive($filepath)
 	{
-		if ( ! ($fp = @fopen($filepath, FOPEN_WRITE_CREATE_DESTRUCTIVE)))
+		if ( ! ($fp = @fopen($filepath, 'w')))
 		{
 			return FALSE;
 		}
