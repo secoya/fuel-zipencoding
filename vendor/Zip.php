@@ -92,7 +92,7 @@ class CI_Zip  {
 	public function __construct()
 	{
 		$this->now = time();
-		Log::debug('Zip Compression Class Initialized');
+		// Log::debug('Zip Compression Class Initialized');
 	}
 
 	// --------------------------------------------------------------------

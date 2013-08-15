@@ -12,7 +12,6 @@
 
 namespace Zip;
 
-require_once PKGPATH.'zipencoding'.DS.'vendor'.DS.'Zip.php';
 
 use CI_Zip;
 
